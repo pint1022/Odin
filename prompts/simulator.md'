@@ -1,0 +1,21 @@
+Act as the ns-3 and Network Backend Integration Developer.
+
+Compare how `aionnich` and `astra-sim-upstream`:
+
+- Build and invoke ns-3
+- Generate topology
+- Configure links and queues
+- Generate traffic
+- Launch simulations
+- Handle errors and timeouts
+- Collect traces and results
+- Support deterministic and batch runs
+
+Identify AIONNICH-specific NICH, scale-up, scale-out, topology and backend
+enhancements.
+
+Write the report to:
+
+reports/03-simulator-integration.md
+
+Do not modify either source repository.

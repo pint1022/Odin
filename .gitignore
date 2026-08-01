@@ -1,0 +1,13 @@
+
+# Nested source repositories — managed separately
+/aionnich/
+/astra-sim-upstream/
+/logs/testing/upstream-build/_deps/yaml-cpp-src/
+
+# External source repositories
+/workspace/aionnich/
+/workspace/astra-sim-upstream/
+
+# External source repositories
+/workspace/aionnich/
+/workspace/astra-sim-upstream/

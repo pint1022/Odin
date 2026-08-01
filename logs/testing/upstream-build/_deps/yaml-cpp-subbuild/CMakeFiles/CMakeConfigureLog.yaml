@@ -1,0 +1,82 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/snap/cmake/1560/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/xwang/.surrealdb/"
+      - "/home/xwang/.local/bin/"
+      - "/home/xwang/.nvm/versions/node/v20.19.5/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path/"
+      - "/home/xwang/.codex/tmp/arg0/codex-arg0mUMv8B/"
+      - "/home/xwang/.nvm/versions/node/v20.19.5/bin/"
+      - "/home/xwang/anaconda3/bin/"
+      - "/home/xwang/anaconda3/condabin/"
+      - "/home/xwang/.cursor-server/bin/linux-x64/23b9fb205fe595ea2be29da7214e19762d037fc0/bin/remote-cli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/xwang/.surrealdb/uname"
+      - "/home/xwang/.local/bin/uname"
+      - "/home/xwang/.nvm/versions/node/v20.19.5/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path/uname"
+      - "/home/xwang/.codex/tmp/arg0/codex-arg0mUMv8B/uname"
+      - "/home/xwang/.nvm/versions/node/v20.19.5/bin/uname"
+      - "/home/xwang/anaconda3/bin/uname"
+      - "/home/xwang/anaconda3/condabin/uname"
+      - "/home/xwang/.cursor-server/bin/linux-x64/23b9fb205fe595ea2be29da7214e19762d037fc0/bin/remote-cli/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/xwang/.surrealdb"
+        - "/home/xwang/.local/bin"
+        - "/home/xwang/.nvm/versions/node/v20.19.5/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path"
+        - "/home/xwang/.codex/tmp/arg0/codex-arg0mUMv8B"
+        - "/home/xwang/.nvm/versions/node/v20.19.5/bin"
+        - "/home/xwang/anaconda3/bin"
+        - "/home/xwang/anaconda3/condabin"
+        - "/home/xwang/.cursor-server/bin/linux-x64/23b9fb205fe595ea2be29da7214e19762d037fc0/bin/remote-cli"
+        - "/home/xwang/.cursor-server/bin/linux-x64/23b9fb205fe595ea2be29da7214e19762d037fc0/bin/remote-cli"
+        - "/home/xwang/.surrealdb"
+        - "/home/xwang/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1560/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.14.0-1018-aws - x86_64
+...

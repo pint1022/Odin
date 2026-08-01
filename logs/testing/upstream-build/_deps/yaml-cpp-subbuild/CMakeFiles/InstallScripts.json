@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/xwang/dev/simu-ai-team/logs/testing/upstream-build/_deps/yaml-cpp-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

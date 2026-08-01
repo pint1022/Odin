@@ -1,0 +1,221 @@
+[  1%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/calbusbw.cc.o
+[  3%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/UsageTracker.cc.o
+In file included from /home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.h:3,
+                 from /home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:4:
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/build/simai_analytical/../../astra-sim/system/AstraParamParse.hh:55:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   55 |   char* nic_type = "cx7";
+      |                    ^~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc: In function ‘float calculateBusBw(CalculationParameters*)’:
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:167:102: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  167 |             if (lower_compare(params->nccl_algo, "nvls") == 0 && node_count > 1) params->nccl_algo = "nvlstree";
+      |                                                                                                      ^~~~~~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:168:107: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  168 |             if (lower_compare(params->nccl_algo, "nvlstree") == 0 && node_count == 1) params->nccl_algo = "nvls";
+      |                                                                                                           ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:185:41: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  185 |                     params->nccl_algo = "Ring";
+      |                                         ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:197:41: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  197 |                     params->nccl_algo = "Ring";
+      |                                         ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:200:41: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  200 |                     params->nccl_algo = "Tree";
+      |                                         ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:208:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  208 |         params->nccl_algo = "Ring";
+      |                             ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:212:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  212 |         params->nccl_algo = "none";
+      |                             ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:220:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  220 |         params->nccl_algo = "Ring";
+      |                             ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:224:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  224 |         params->nccl_algo = "Ring";
+      |                             ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:228:29: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  228 |         params->nccl_algo = "Ring";
+      |                             ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc: In function ‘BusBwResult cal_busbw(GPUType, float, float, float, int, char*, int, char*)’:
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:296:24: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  296 |     params.nccl_algo = "ring";
+      |                        ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:331:28: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  331 |         params.nccl_algo = "Ring";
+      |                            ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/system/calbusbw.cc:335:28: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  335 |         params.nccl_algo = "Ring";
+      |                            ^~~~~~
+[  5%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/collective/Algorithm.cc.o
+[  6%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/collective/AllToAll.cc.o
+[  8%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/collective/DoubleBinaryTreeAllReduce.cc.o
+[ 10%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/collective/HalvingDoubling.cc.o
+[ 11%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/collective/NcclTreeFlowModel.cc.o
+[ 13%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/collective/Ring.cc.o
+[ 15%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/fast-backend/FastBackEnd.cc.o
+[ 16%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/memory/SimpleMemory.cc.o
+[ 18%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/scheduling/OfflineGreedy.cc.o
+[ 20%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/BasicLogicalTopology.cc.o
+[ 22%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/BinaryTree.cc.o
+[ 23%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/ComplexLogicalTopology.cc.o
+[ 25%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/DoubleBinaryTreeTopology.cc.o
+[ 27%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/GeneralComplexTopology.cc.o
+[ 28%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/LocalRingGlobalBinaryTree.cc.o
+[ 30%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/LocalRingNodeA2AGlobalDBT.cc.o
+[ 32%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/LogicalTopology.cc.o
+[ 33%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/Node.cc.o
+[ 35%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/RingTopology.cc.o
+[ 37%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/system/topology/Torus3D.cc.o
+[ 38%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/workload/CSVWriter.cc.o
+[ 40%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/workload/Layer.cc.o
+[ 42%] Building CXX object AstraSim/CMakeFiles/AstraSim.dir/astra-sim/workload/Workload.cc.o
+In file included from /home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/workload/Layer.cc:10:
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/build/simai_analytical/../../astra-sim/system/AstraParamParse.hh:55:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   55 |   char* nic_type = "cx7";
+      |                    ^~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/workload/Layer.cc: In function ‘char* AstraSim::comtype_to_coll(ComType)’:
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/workload/Layer.cc:882:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  882 |             return "none";
+      |                    ^~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/workload/Layer.cc:884:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  884 |             return "reducescatter";
+      |                    ^~~~~~~~~~~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/workload/Layer.cc:886:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  886 |             return "allgather";
+      |                    ^~~~~~~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/workload/Layer.cc:888:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  888 |             return "allreduce";
+      |                    ^~~~~~~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/workload/Layer.cc:890:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  890 |             return "alltoall";
+      |                    ^~~~~~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/workload/Layer.cc:892:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  892 |             return "all_reduce_all_to_all";
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/workload/Layer.cc:894:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  894 |             return "all_reduce_nvls";
+      |                    ^~~~~~~~~~~~~~~~~
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/workload/Layer.cc:896:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  896 |             return "unknown";
+      |                    ^~~~~~~~~
+[ 44%] Linking CXX static library libAstraSim.a
+[ 93%] Built target AstraSim
+[ 94%] Building CXX object simai_analytical/CMakeFiles/SimAI_analytical.dir/AnaSim.cc.o
+[ 96%] Building CXX object simai_analytical/CMakeFiles/SimAI_analytical.dir/AnalyticalAstra.cc.o
+[ 98%] Building CXX object simai_analytical/CMakeFiles/SimAI_analytical.dir/AnalyticalNetwork.cc.o
+In file included from /home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/network_frontend/analytical/AnalyticalAstra.cc:24:
+/home/xwang/dev/simu-ai-team/aionnich/astra-sim-alibabacloud/astra-sim/network_frontend/analytical/../../../astra-sim/system/AstraParamParse.hh:55:20: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   55 |   char* nic_type = "cx7";
+      |                    ^~~~~
+[100%] Linking CXX executable SimAI_analytical
+/usr/bin/ld: CMakeFiles/SimAI_analytical.dir/AnalyticalAstra.cc.o: in function `main':
+AnalyticalAstra.cc:(.text+0x6fa): undefined reference to `AstraSim::Sys::Sys(AstraSim::AstraNetworkAPI*, AstraSim::AstraMemoryAPI*, int, int, int, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, float, float, float, int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool, bool, GPUType, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> >, int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::call(AstraSim::EventType, AstraSim::CallData*)':
+Workload.cc:(.text+0xabb): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0xc3e): undefined reference to `AstraSim::Sys::sys_panic(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::report()':
+Workload.cc:(.text+0xedd): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Workload.cc:(.text+0x10fd): undefined reference to `AstraSim::Sys::SchedulerUnit::get_average_latency_per_dimension()'
+/usr/bin/ld: Workload.cc:(.text+0x1219): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::check_for_sim_end()':
+Workload.cc:(.text+0x14c7): undefined reference to `AstraSim::Sys::register_for_finished_stream(AstraSim::Callable*)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::iterate_data_parallel()':
+Workload.cc:(.text+0x176f): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x17df): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x186c): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x190e): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Workload.cc:(.text+0x1978): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x1a05): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x1a4f): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::iterate_hybrid_parallel_customized()':
+Workload.cc:(.text+0x1b97): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x1c58): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x1ce5): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x1dfc): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Workload.cc:(.text+0x1e66): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x1ef3): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x1f86): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::iterate_hybrid_parallel_data_model()':
+Workload.cc:(.text+0x20d1): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x2192): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x221f): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x2336): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Workload.cc:(.text+0x23a0): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x242d): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x24c0): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::iterate_hybrid_parallel_model_data()':
+Workload.cc:(.text+0x260b): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x26cc): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x2759): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x2870): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Workload.cc:(.text+0x28da): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x2967): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x29fa): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::iterate_distributed_inference()':
+Workload.cc:(.text+0x2b44): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x2c02): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::iterate_model_parallel()':
+Workload.cc:(.text+0x2d91): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x2eed): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x2f98): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x308c): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Workload.cc:(.text+0x3108): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x31b3): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x32d6): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::iterate_hybrid_parallel_Transformer()':
+Workload.cc:(.text+0x3511): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x35d2): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x365f): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x3776): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Workload.cc:(.text+0x37e0): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x386d): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x38f7): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::iterate_hybrid_parallel_Transformer_fwd_in_bckwd()':
+Workload.cc:(.text+0x3a4c): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x3ba5): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x3c32): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x3d49): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Workload.cc:(.text+0x3db3): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x3e8b): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x3f0d): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Workload.cc:(.text+0x3fa7): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x403c): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x40f7): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x41bb): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::iterate_hybrid_parallel_DLRM()':
+Workload.cc:(.text+0x430d): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x446f): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x44fc): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x45fa): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Workload.cc:(.text+0x4674): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Workload.cc:(.text+0x4701): undefined reference to `AstraSim::Sys::try_register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, unsigned long long&)'
+/usr/bin/ld: Workload.cc:(.text+0x47eb): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Workload.cc.o): in function `AstraSim::Workload::decode_involved_dimensions[abi:cxx11](AstraSim::ParallelismPolicy, int)':
+Workload.cc:(.text+0x56cc): undefined reference to `AstraSim::Sys::break_dimension(int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Layer.cc.o): in function `AstraSim::Layer::call(AstraSim::EventType, AstraSim::CallData*)':
+Layer.cc:(.text+0x4b2): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Layer.cc:(.text+0x4f0): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Layer.cc:(.text+0x500): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Layer.cc:(.text+0x53e): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Layer.cc:(.text+0x54e): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Layer.cc:(.text+0x58c): undefined reference to `AstraSim::Sys::register_event(AstraSim::Callable*, AstraSim::EventType, AstraSim::CallData*, int)'
+/usr/bin/ld: Layer.cc:(.text+0x84f): undefined reference to `AstraSim::Sys::increase_finished_streams(int)'
+/usr/bin/ld: Layer.cc:(.text+0x9eb): undefined reference to `AstraSim::Sys::increase_finished_streams(int)'
+/usr/bin/ld: Layer.cc:(.text+0xace): undefined reference to `AstraSim::Sys::increase_finished_streams(int)'
+/usr/bin/ld: Layer.cc:(.text+0xd95): undefined reference to `AstraSim::Sys::increase_finished_streams(int)'
+/usr/bin/ld: Layer.cc:(.text+0xf31): undefined reference to `AstraSim::Sys::increase_finished_streams(int)'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Layer.cc.o):Layer.cc:(.text+0x1014): more undefined references to `AstraSim::Sys::increase_finished_streams(int)' follow
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Layer.cc.o): in function `AstraSim::Layer::is_fwd_pass_comm_finished_blocking()':
+Layer.cc:(.text+0x1781): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Layer.cc.o): in function `AstraSim::Layer::is_input_grad_comm_finished_blocking()':
+Layer.cc:(.text+0x185d): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Layer.cc.o): in function `AstraSim::Layer::is_weight_grad_comm_finished_blocking()':
+Layer.cc:(.text+0x1939): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Layer.cc.o): in function `AstraSim::Layer::report(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, int, int, AstraSim::CSVWriter*, AstraSim::CSVWriter*, double&, double&, bool, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, double&, double&, double&, double&, double&)':
+Layer.cc:(.text+0x3e9b): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: Layer.cc:(.text+0x4016): undefined reference to `AstraSim::Sys::boostedTick()'
+/usr/bin/ld: ../AstraSim/libAstraSim.a(Layer.cc.o):Layer.cc:(.text+0x9001): more undefined references to `AstraSim::Sys::boostedTick()' follow
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [simai_analytical/CMakeFiles/SimAI_analytical.dir/build.make:134: simai_analytical/SimAI_analytical] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:161: simai_analytical/CMakeFiles/SimAI_analytical.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
